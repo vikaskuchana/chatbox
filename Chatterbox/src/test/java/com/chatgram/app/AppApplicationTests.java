@@ -1,4 +1,4 @@
-package com.chatterbox.app;
+package com.chatgram.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
