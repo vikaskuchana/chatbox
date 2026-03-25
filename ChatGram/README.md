@@ -2,11 +2,6 @@
 
 A full-featured, scalable messaging application built with Spring Boot, WebSocket, and Kafka. This project demonstrates enterprise-level architecture with real-time communication, message persistence, and comprehensive audit logging.
 
-Show Image
-Show Image
-Show Image
-Show Image
-
 🌟 Features
 Core Functionality
 ✅ Real-time Messaging - WebSocket-based instant message delivery
@@ -24,29 +19,7 @@ Technical Highlights
 💾 Multi-Database - PostgreSQL for data, MongoDB for audit logs, Redis for caching
 🔄 Message Guarantees - At-least-once delivery with retry logic
 🏗️ Architecture
-┌─────────────┐
-│   Client    │ (Web/Mobile)
-└──────┬──────┘
-       │ WebSocket/HTTP
-┌──────▼──────────┐
-│  API Gateway    │ (Load Balancer)
-└──────┬──────────┘
-       │
-   ┌───┴───┬─────────┬──────────┐
-   │       │         │          │
-┌──▼───┐ ┌▼────┐ ┌──▼─────┐ ┌──▼────┐
-│ Auth │ │ Msg │ │ User   │ │ Group │
-│Service│ │Service│ │Service│ │Service│
-└──┬───┘ └──┬──┘ └───┬────┘ └───┬───┘
-   │        │        │          │
-   └────────┼────────┴──────────┘
-            │
-      ┌─────┼─────┬──────────┐
-      │     │     │          │
-   ┌──▼──┐ ┌▼───┐ ┌▼──────┐ ┌▼──────┐
-   │PostgreSQL│ │Kafka│ │Redis │ │MongoDB│
-   │(Messages)│ │(Queue)│ │(Cache)│ │(Audit)│
-   └─────────┘ └────┘ └───────┘ └───────┘
+
 🚀 Quick Start
 Prerequisites
 Java 17 or higher
@@ -405,8 +378,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 👨‍💻 Author
 Your Name
 
-GitHub: @yourusername
-LinkedIn: Your Profile
+GitHub: @vikaskuchana
+LinkedIn: Vikas Kuchana(https://www.linkedin.com/in/vikas-kuchana-11447a202/?skipRedirect=true)
+
 🙏 Acknowledgments
 Spring Boot team for the excellent framework
 Apache Kafka for reliable message streaming
