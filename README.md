@@ -1,2 +1,0 @@
-# chatbox
-A messaging app
