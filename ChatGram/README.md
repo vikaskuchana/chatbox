@@ -372,8 +372,6 @@ Use Lombok annotations to reduce boilerplate
 Write meaningful commit messages
 Add JavaDoc for public methods
 Include unit tests for new features
-📝 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 👨‍💻 Author
 Your Name
