@@ -1,4 +1,4 @@
-# 💬 Telegram Clone - Real-time Messaging Platform
+# 💬 ChatGram - Telegram Clone - Real-time Messaging Platform
 
 A full-featured, scalable messaging application built with **Spring Boot**, **WebSocket**, and **Kafka**. This project demonstrates enterprise-level architecture with real-time communication, message persistence, and comprehensive audit logging.
 
